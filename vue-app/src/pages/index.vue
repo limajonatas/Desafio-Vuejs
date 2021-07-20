@@ -1,15 +1,16 @@
 <template>
-  <Index />
+  <div id="app">
+    <Header />
+  </div>
 </template>
 
 <script>
-  import './styles/globals.css'
-  import Index from './pages/index'
+  import Header from './components/Header'
 
   export default {
-    name: 'App',
+    name: 'Index',
     components: {
-      Index
+      Header
     }
   }
 </script>

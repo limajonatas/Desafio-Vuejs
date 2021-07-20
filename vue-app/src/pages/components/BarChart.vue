@@ -22,10 +22,8 @@ import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 
 Vue.use(VueFusionCharts, FusionCharts, Column2D, FusionTheme);
 
-// STEP 2: Prepare the data
 const chartData = [];
 
-// STEP 3: Configure your chart
 const dataSource = {
   chart: {
     caption: "Casos de COVID-19",
@@ -39,12 +37,12 @@ const dataSource = {
   };
 
 export default {
-  name: 'app',
+  name: 'BarChart',
   data() {
     return {
       "type": "column2d",
       "renderAt": "chart-container",
-      "width": "550",
+      "width": "100%",
       "height": "350",
       "dataFormat": "json",
       dataSource

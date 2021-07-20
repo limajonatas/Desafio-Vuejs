@@ -5,14 +5,14 @@
 </template>
 
 <script>
-  import './styles/globals.css'//
-  import Header from './components/Header'//
-  
+  import './styles/globals.css'
+  import Header from './components/Header'
+
   export default {
     name: 'App',
-    components: {//
-      Header//
-    }//
+    components: {
+      Header
+    }
   }
 </script>
 

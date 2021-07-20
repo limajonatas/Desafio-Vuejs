@@ -5,9 +5,14 @@
 </template>
 
 <script>
-
+  import './styles/globals.css'//
+  import Header from './components/Header'//
+  
   export default {
-    name: 'App'
+    name: 'App',
+    components: {//
+      Header//
+    }//
   }
 </script>
 

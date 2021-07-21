@@ -32,6 +32,15 @@ export default {
       "dataFormat": "json",
       dataSource
     }
+  }, 
+  props: {
+    response: Object
+  },
+  mounted(){
+    this.dataSource.data = this.response
+    console.log(this.response)
+    console.log(this.dataSource.data)
+    
   }
 }
 </script>

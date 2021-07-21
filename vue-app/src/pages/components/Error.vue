@@ -1,5 +1,5 @@
 <template>
-    <div class= "container transparent">
+    <div class= "background_transparent">
         <div id = "error-dialog">
             <p><b>Oops, Surgiu algum problema</b></p>
             <p>Tente atualizar a página</p>
@@ -10,17 +10,18 @@
 <script>
 
     export default {
-    name: 'DialogError',
+        name: 'DialogError',
     }
 
 </script>
 
 <style scoped>
-#error-dialog{
-    background-color: #fff;
-    width: 50vw;
-    height: 30vh;
-    text-align: center;
-    border-radius: 10px;
-}
+    #error-dialog{
+        background-color: #fff;
+        width: 50vw;
+        height: 30vh;
+        text-align: center;
+        border-radius: 10px;
+    }
+
 </style>

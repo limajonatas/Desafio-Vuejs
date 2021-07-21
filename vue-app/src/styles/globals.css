@@ -20,7 +20,13 @@ a{
     justify-content: center;
 }
 
-.transparent{
-    background-color: #353835;
-    opacity : 0.5
+.background_transparent{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 56, 56,0.5);
+    height: 100%;
+    width: 100%;
 }

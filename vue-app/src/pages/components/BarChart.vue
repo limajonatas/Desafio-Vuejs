@@ -1,18 +1,3 @@
-<template>
-  <div id="app">
-    <div id="chart-container">
-      <fusioncharts
-      :type="type"
-      :width="width"
-      :height="height"
-      :dataformat="dataFormat"
-      :dataSource="dataSource"
-      >
-      </fusioncharts>
-    </div>
-  </div>
-</template>
-
 <script>
 import Vue from 'vue';
 import VueFusionCharts from 'vue-fusioncharts';
@@ -50,4 +35,19 @@ export default {
   }
 }
 </script>
+
+<template>
+    <div id="chart-container">
+      <fusioncharts
+      :type="type"
+      :width="width"
+      :height="height"
+      :dataformat="dataFormat"
+      :dataSource="dataSource"
+      >
+      </fusioncharts>
+    </div>
+</template>
+
+
 

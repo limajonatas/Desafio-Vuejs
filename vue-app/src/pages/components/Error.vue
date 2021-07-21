@@ -1,5 +1,5 @@
 <template>
-    <div class= "container">
+    <div class= "container transparent">
         <div id = "error-dialog">
             <p><b>Oops, Surgiu algum problema</b></p>
             <p>Tente atualizar a página</p>

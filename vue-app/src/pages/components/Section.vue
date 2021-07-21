@@ -1,8 +1,8 @@
 <template>
     <section>
-        <BarChart :response="{aaa:123}"/>//
-        <DialogLoading />
-        <DialogError />
+        <DialogError v-if="isError"/>
+        <DialogLoading v-else-if="isLoading" />
+        <BarChart v-else :response="respData"/>
     </section>
 </template>
 
@@ -13,16 +13,30 @@
 
     export default {
     name: 'Section',
+    data(){
+        return {
+            isLoading: true,
+            isError: false,
+            respData: []
+        }
+    },
     components: {
         BarChart,
         DialogLoading,
         DialogError
     },
     mounted(){
+        /*
         // Fazer a requisição para API
+        api.get("https://api.covid19api.com/summary").then(response =>{
+
+        }).catch(error => {
+            this.isError = true
+        }).finally(() => this.isLoading = false)
         // Passar como parametro para BarChart
+        }*/
         console.log('aqui')
-        }
+    }
     }
 </script>
 

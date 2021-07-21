@@ -1,5 +1,5 @@
 <template>
-    <div class= "container">
+    <div class= "container transparent">
         <div id = "loading-dialog">
             <p><b>Aguarde, página carregando</b></p>
         </div>

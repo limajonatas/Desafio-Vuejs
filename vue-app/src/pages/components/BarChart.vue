@@ -7,7 +7,7 @@
 
 	Vue.use(VueFusionCharts, FusionCharts, Column2D, FusionTheme);
 
-	const chartData = [];
+	//const chartData = [];
 
 	const dataSource = {
 		chart: {
@@ -18,7 +18,7 @@
 			numbersuffix: "",
 			theme: "fusion"
 		},
-		data: chartData
+		data: []//chartData
 	};
 
 	export default {
@@ -34,9 +34,10 @@
 			}
 		}, 
 		props: {
-			response: Object
+			response: Array// ou Array, acho que é Array ; Object
 		},
 		mounted(){
+			// criar aqui o metodo para transformar os dados 
 			this.dataSource.data = this.response
 			console.log(this.response)
 			console.log(this.dataSource.data)

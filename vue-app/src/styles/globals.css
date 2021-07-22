@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
     /**/
-    background-color: #fff;
+    background-color: #f4f4f4;
 }
 
 a{
@@ -29,4 +29,9 @@ a{
     background-color: rgba(63, 56, 56,0.5);
     height: 100%;
     width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }

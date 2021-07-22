@@ -1,8 +1,10 @@
 <template>
 	<header>
-		<nav class = 'container'>
+		<nav class = 'container center'>
 			<h1>Desafio GolFarma</h1>
-			<a target="_blank" href= "https://golfarma.com.br/quem-somos/">Sobre</a>
+			<a target="_blank" href= "https://golfarma.com.br/quem-somos/">
+				<b>Sobre</b>
+			</a>
 		</nav>
 	</header>
 </template>
@@ -25,6 +27,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		border-bottom: 8px solid #67bd00;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
 	}
 	nav{
 		display: flex;
@@ -32,9 +37,38 @@
 	}
 
 	h1{
+		position: absolute;
 		margin: 0 auto;
 	}
 	a{
-		margin-right: 50px;
+		position: absolute;
+		right: 30px;
+		padding: 14px;
 	}
+	a:hover{
+		background-color: #12c48c;
+		border-radius: 22px;
+	}
+
+	@media (max-width: 470px){
+		nav{
+
+			flex-direction: column;
+		}
+		h1{
+			position: relative;
+			margin-top:22px;
+		}
+		a{
+			position: relative;
+			right:0px;
+
+		}
+	}
+	/*
+			position: absolute;
+			top:50%;
+			margin: 0 auto;
+			padding: 8px;
+	*/
 </style>

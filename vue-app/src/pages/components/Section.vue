@@ -11,6 +11,8 @@
     import DialogLoading from './Loading'
     import DialogError from './Error'
 
+    import api from '../../services/api'
+
     export default {
         name: 'Section',
         data(){
@@ -26,18 +28,19 @@
             DialogError
         },
         mounted(){
-            /*
+            
             // Fazer a requisição para API
-            api.get("https://api.covid19api.com/summary").then(response =>{
-
-            }).catch(error => {
+            api.get("/summary").then(response =>{
+                this.respData = response.data.Countries
+                //console.log(response.status)
+            }).catch( ()=> {
                 this.isError = true
-            }).finally(() => this.isLoading = false)
+            }).finally(() => {this.isLoading = false})
             // Passar como parametro para BarChart
-            }*/
-            console.log('aqui')
+            }
+            
         }
-    }
+    
 </script>
 
 <style scoped>

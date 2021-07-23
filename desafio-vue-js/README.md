@@ -6,6 +6,24 @@
   ☕ Desafio VueJS
 </h4>
 
+## 📷 Pages
+
+<h1 align="center">
+    <img alt="Covid-ATT" src=".github/Home.JPG" width="420px" />
+</h1>
+
+<br>
+
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [VueJS](https://vuejs.org)
+
+## 💻 Projeto
+
+O projeto relata a quantidade de contaminados por Covid-19, por paises, da qual foi alimentado por dados de uma api pública.
+
 ## Project setup
 ```
 yarn install

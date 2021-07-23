@@ -2,10 +2,11 @@
 
 ## Configura o Projeto 
 ```
-Após clonar o projeto execute **npm install** para instalar as dependencias;
+Após clonar o projeto execute ** npm install ** para instalar as dependencias;
 ```
 
-### Compila e inicia o servidor
+### Compilar e iniciar o servidor
 ```
-Para iniciar o servidor execute **npm run serve**, acesse o endereço http://localhost:8080/ para ter acesso a página web;
+Para iniciar o servidor execute ** npm run serve **, acesse o endereço http://localhost:8080/ para ter acesso a página web;
+
 ```

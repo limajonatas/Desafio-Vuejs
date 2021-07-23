@@ -9,7 +9,7 @@
 ## 📷 Pages
 
 <h1 align="center">
-    <img alt="Covid-ATT" src=".github/Home.JPG" width="420px" />
+    <img alt="Covid-ATT" src=".github/Home.JPG" width="600px" />
 </h1>
 
 <br>

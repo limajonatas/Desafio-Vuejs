@@ -1,24 +1,11 @@
 # Desafio-Vuejs
 
-## Project setup
+## Configura o Projeto 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Após clonar o projeto execute **npm install** para instalar as dependencias;
 ```
 
-### Compiles and minifies for production
+### Compila e inicia o servidor
 ```
-npm run build
+Para iniciar o servidor execute **npm run serve**, acesse o endereço http://localhost:8080/ para ter acesso a página web;
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

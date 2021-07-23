@@ -8,7 +8,7 @@
 	Vue.use(VueFusionCharts, FusionCharts, Column2D, FusionTheme);
 
 	// Dados para o gráfico com os 7 países com mais casos
-	const dataSourceBig = {
+	const dataSourceBigger = {
 		chart: {
 			caption: "7 Países com mais casos",
 			subcaption: "",
@@ -44,7 +44,7 @@
 				"height": "350",
 				"dataFormat": "json",
 				dataSourceTotal,
-				dataSourceBig
+				dataSourceBigger
 			}
 		}, 
 		/**/
@@ -87,7 +87,7 @@
 					lisInter.push(copyData[index])
 					copyData.splice(index, 1);// Para não passar pelo mesmo elemento novamente
 				}
-				this.transformDataTotal(lisInter,this.dataSourceBig.data) // Adequa o dado para o formato requerido
+				this.transformDataTotal(lisInter,this.dataSourceBigger.data) // Adequa o dado para o formato requerido
 			}
 		},
 		/**/
@@ -121,7 +121,7 @@
 			:width="width"
 			:height="height"
 			:dataFormat="dataFormat"
-			:dataSource="dataSourceBig"
+			:dataSource="dataSourceBigger"
 			/>
 		</div>
 	</div>

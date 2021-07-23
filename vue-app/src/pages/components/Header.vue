@@ -65,10 +65,4 @@
 
 		}
 	}
-	/*
-			position: absolute;
-			top:50%;
-			margin: 0 auto;
-			padding: 8px;
-	*/
 </style>

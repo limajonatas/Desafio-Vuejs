@@ -19,7 +19,7 @@
             return {
                 isLoading: true,
                 isError: false,
-                respData: []// colocar a response aqui
+                respData: []
             }
         },
         components: {
@@ -29,14 +29,12 @@
         },
         mounted(){
             
-            // Fazer a requisição para API
+            // Faz a requisição para API
             api.get("/summary").then(response =>{
                 this.respData = response.data.Countries
-                //console.log(response.status)
             }).catch( ()=> {
                 this.isError = true
             }).finally(() => {this.isLoading = false})
-            // Passar como parametro para BarChart
             }
             
         }

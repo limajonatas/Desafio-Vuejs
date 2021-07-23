@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Covid-ATT" src=".github/coronaviruslogo.png" width="150px" />
+    <img alt="Covid-ATT" src=".github/coronavirus.png" width="150px" />
 </h1>
 
 <h4 align="center">

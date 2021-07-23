@@ -2,14 +2,14 @@
     <img alt="Covid-ATT" src=".github/coronavirus.png" width="150px" />
 </h1>
 
-<h4 align="center">
+<h2 align="center">
   ☕ Desafio VueJS
-</h4>
+</h2>
 
 ## 📷 Pages
 
 <h1 align="center">
-    <img alt="Covid-ATT" src=".github/Home.JPG" width="600px" />
+    <img alt="Covid-ATT" src=".github/Home.JPG" width="800px" />
 </h1>
 
 <br>
